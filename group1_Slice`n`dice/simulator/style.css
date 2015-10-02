@@ -1,0 +1,23 @@
+html, body, ul, li, a {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	width: 300px;
+	height: 60px;
+	background-color: yellow;
+	list-style-type: none;
+}
+ul li {
+	float: left;
+	height: 60px;
+	background-color: green;
+	border-left: 2px solid red;
+}
+a {
+	display: block;
+	text-decoration: none;
+	background-color: white;
+	padding: 10px 10px;
+	margin: 10px 10px;
+}

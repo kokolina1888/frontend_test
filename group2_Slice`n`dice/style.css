@@ -1,0 +1,328 @@
+html, body, div, header, nav, ul, li, h1, a, 
+main, section, img, p, span, h2, h3, h4, footer, span  {
+	margin: 0;
+	padding: 0;
+}
+/**GENERAL**/
+/** layout **/
+body {
+	width: 100%;
+	background-color: #f0f0f0;
+}
+.wrapper {
+	width: 1050px;
+	background-color: #fff;
+	margin: 50px auto 0 auto;
+}
+.container {
+	width: 950px;
+	margin: 0 auto;
+
+}
+
+/** typography **/
+body {
+	font-family: "OpenSans", Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	color: #5c5c5c;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	display: block;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 3.5em;
+}
+h3 {
+	font-size: 2.5em;
+}
+h4 {
+	font-size: 1.6em;
+}
+/** HEADER navs**/
+h1 {
+	width: 134px;
+	height: 110px;
+	line-height: 110px;
+}
+div#navigation {
+	width: 100%;
+	height: 54px;
+	background-color: #393939;
+}
+nav#menu {
+	width: 750px;
+	height: 54px;
+	float: left;
+}
+nav#menu ul li {
+	display: inline-block;
+	height: 54px;
+	border-right: 1px solid #464646;
+}
+nav#menu ul li a {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding: 10px 20px;
+	margin: 7px 10px;
+	color: #d0d0d0;
+}
+nav#social {
+	width: 68px;
+	height: 54px;
+	float: right;
+	margin-right: 14px;
+}
+nav#social ul li {
+	display: inline-block;
+	margin: 17px 2px;
+}
+
+nav#social ul li a {
+	background-image: url('images/small-img.png');
+	repeat: no-repeat;
+	width: 10px;
+	height: 10px;
+	padding: 4px;	
+}
+nav#social ul li:nth-of-type(1) a {
+	background-position: -6px -442px;
+}
+nav#social ul li:nth-of-type(2) a {
+	width: 6px;
+	background-position: -30px -442px;
+}
+nav#social ul li:nth-of-type(3) a {
+	background-position: -52px -442px;
+}
+/** HEADER slider**/
+#slider h2 {
+	margin-top: 50px;
+	text-align: center;
+	line-height: 28px;
+}
+#slider p {
+	font-size: 2.5em;
+	text-align: center;
+	margin-top: 32px;
+}
+#slider div {
+	height: 380px;
+	margin-top: 52px;
+	background-color: pink;
+	background: url('images/slider-image.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#slider div a {
+	width: 35px;
+	height: 35px;
+	background: url('images/small-img.png');
+	background-repeat: no-repeat;
+}
+#slider div a#back {
+	background-position: -10px -467px;	
+	float: left;
+	position: relative;
+	top: 100px;
+}
+#slider div a#forward {
+	background-position: -55px -467px;	
+	float: right;
+	position: relative;
+	top: 100px;
+}
+#slider nav#slider-img {
+	width: 70px;
+	margin: 20px auto 0 auto;
+}
+#slider nav#slider-img ul li {
+	display: inline-block;
+	margin: 1px;
+}
+#slider nav#slider-img ul li a {
+	width: 12px;
+	height: 12px;
+	background-color: #e9e9e9;
+	border-radius: 6px;
+}
+#slider nav#slider-img ul li a:active {
+	background-color: #75cec2;
+}
+/** MAIN section service**/
+section#service {
+	height: 327px;
+	margin-top: 48px;
+	background-image: url('images/line.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+section#service h3 {
+	text-align: center;
+}
+section#service header > p {
+	margin: 28px auto 0 auto;
+	width: 790px;
+	font-size: 1.4em;
+	text-align: center;
+}
+section#service header > div {
+	width: 121px;
+	height: 120px;
+	margin: 47px 58px 0 58px;
+	float: left;
+}
+section#service header > div div {
+	background-image: url('images/small-img.png');
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100px;
+	height: 105px;
+}
+section#service header > div:nth-of-type(1) div {
+	background-position: -10px -110px;
+}
+section#service header > div:nth-of-type(2) div {
+	background-position: -10px -225px;
+}
+section#service header > div:nth-of-type(3) div {
+	background-position: -10px -335px;
+}
+section#service header > div:nth-of-type(4) div {
+	background-position: -10px 0;
+}
+section#service header > div p {
+	margin-top: 14px;
+	font-size: 1.6em;	
+	text-align: center;
+}
+section#service header > div p a {
+	color: #5c5c5c;
+}
+section#service header > div p:hover a {
+	color: #75cec2;
+}
+/** MAIN section awesome-works**/
+section#awesome-works {
+	height: 434px;
+	margin-top: 40px;
+}
+section#awesome-works h4 {
+	text-align: left;
+	text-transform: uppercase;
+}
+section#awesome-works div {
+	width: 302px;
+	height: 350px;
+	float: left;
+	margin-top: 24px;
+}
+section#awesome-works div:nth-of-type(2) {
+	margin-right: 22px;
+	margin-left: 22px;
+}
+section#awesome-works div>img {
+	width: 302px;
+	height: 200px;
+}
+section#awesome-works div h4 {
+	margin-top: 20px;
+	text-transform: none;
+}
+section#awesome-works div p:first-of-type {
+	font-size: 1.3em;
+	color: #75cec2;
+	line-height: 12px;
+	margin-top: 16px;
+}
+section#awesome-works div p:nth-of-type(2) {
+	font-size: 1.4em;
+	line-height: 30px;
+	margin-top: 16px;
+}
+/**FOOTER footer**/
+footer div#footer {
+	height: 368px;
+	background-color: #393939;
+	color: #efefef;
+}
+footer div#footer section {
+	width: 302px;
+	height: 246px;
+	margin-top: 60px;
+	float: left;
+	margin-right: 20px;
+}
+footer div#footer section h4 {
+	margin-bottom: 20px;
+}
+footer div#footer section:last-of-type {
+	margin-right: 0;
+}
+#footer > div:nth-child(1) > section:nth-child(1) ul {
+	margin-top: 28px;
+}
+#footer > div:nth-child(1) > section:nth-child(2) > p:nth-child(3) {
+	margin-top: 28px;
+}
+#footer > div:nth-child(1) > section:nth-child(3) > ul li {
+	margin-top: 15px;
+}
+#footer > div:nth-child(1) > section:nth-child(3) > ul li:first-of-type {
+	margin-top: 0;
+}
+#footer > div:nth-child(1) > section:nth-child(3) > ul li a p {
+	color:  #949494;
+	font-size: 1.2em;
+}
+footer div#footer section p, 
+#footer > div:nth-child(1) > section:nth-child(1) > ul li {
+	font-size: 1.4em;
+	line-height: 23px;
+}
+#footer section:first-of-type ul li span {
+	display: inline-block;
+	background-image: url('images/bullets.png');
+	background-repeat: no-repeat;
+	width: 12px;
+	height: 13px;
+	position: relative;
+	top: 2px;
+	margin-right: 10px;
+
+}
+#footer section:first-of-type ul li:nth-of-type(1) span {
+	background-position: 0 0;
+}
+#footer section:first-of-type ul li:nth-of-type(2) span {
+	background-image: none;
+}
+#footer section:first-of-type ul li:nth-of-type(3) span {
+	background-position: 0 -49px;
+}
+#footer section:first-of-type ul li:nth-of-type(4) span {
+	background-position: 0 -75px;
+	top: 6px;
+}
+/**FOOTER copyrights**/
+footer div#copyrights {
+	height: 84px;
+	background-color: #333;
+}
+footer div#copyrights p {
+	line-height: 84px;
+	font-size: 1.4em;
+	color: #d2d2d2;
+}
+/** RESPONSIVE **/
+@media only screen and (max-width: 960px) {
+	.wrapper > header:nth-child(1) > div:nth-child(1) {
+		width: 850px;
+	}
+}
